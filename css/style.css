@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@800&family=Overpass:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Manrope;
+  overflow: hidden;
+  background: #202733;
+}
+
+main {
+  width: 100%;
+  max-width: 540px;
+  padding: 0 50px;
+  box-sizing: content-box;
+}
+main .advice {
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 30px 50px 80px 0px rgba(0, 0, 0, 0.1);
+  background: #313A48;
+  padding: 48px;
+  padding-bottom: 8px;
+}
+main .advice .advice-number {
+  color: #53FFAA;
+  font-size: 13px;
+  letter-spacing: 4.086px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+main .advice .advice-text {
+  color: #CEE3E9;
+  font-size: 28px;
+  letter-spacing: -0.3px;
+  margin-bottom: 40px;
+}
+main .advice .design {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+main .advice .design .line {
+  width: 100%;
+  max-width: 196px;
+  height: 1px;
+  background: #4F5D74;
+}
+main .advice .design div {
+  display: flex;
+  gap: 8px;
+}
+main .advice button {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 64px;
+  border: none;
+  cursor: pointer;
+  background: #53FFAA;
+  margin: 0 auto;
+  transform: translateY(40px);
+}/*# sourceMappingURL=style.css.map */
